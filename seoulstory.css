@@ -1,0 +1,63 @@
+.container {
+  display:flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  body {
+    background-color: antiquewhite;
+  }
+  
+  .seoul-logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 200px
+  }
+  
+  .heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    display: flex;
+    justify-content: space-between;
+    margin: 0
+  }
+  
+  .menu-item-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 1.5em
+  }
+  
+  .menu-item-stuff {
+    flex-grow: 1;
+  }
+
+  .menu-item-price {
+    flex-grow: 1;
+  }
+
+  .menu-item-pic {
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 2em;
+  }
+  
+  .item-description {
+    line-height: 1.6;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding: 2em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-item {
+    display: flex;
+  }
